@@ -30,8 +30,7 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 
 </head>
 </html>
-3. run evaluate.py to get multi-turn dialogue datas
-
+3. run evaluate.py to get multi-turn dialogue data
 4. Download ESC-RANK to folder ESC-RANK
 5. run score.py using ESC-RANK on your evaluating data.
 
