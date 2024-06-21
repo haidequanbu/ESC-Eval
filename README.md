@@ -38,7 +38,9 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 ## User Cards
 
 **Statics**
-![Rolecard](./img/role_card.png)
+<div align="left">
+<img src='./img/role_card.png' width=60%/>
+</div>
 
 ## ESC-Role
 ESC-Role is a specific role-playing models for ESC evaluation, which could be download form : https://huggingface.co/haidequanbu/ESC-Role
@@ -49,7 +51,7 @@ https://huggingface.co/haidequanbu/ESC-RANK
 
 **Scoring performace**
 <div align="left">
-<img src='./img/score.png' width=60%/>
+<img src='./img/score.png' width=40%/>
 </div>
 
 ## Leaderboard
