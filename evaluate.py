@@ -130,7 +130,7 @@ def run_rolellm(args):
             tem_result=[]
             for tem in message_ill:
                 if(tem['role']=='user'):
-                    tem_result.append("AI assitant："+tem['content'])
+                    tem_result.append("AI assistant："+tem['content'])
                 if(tem['role']=='assistant'):
                     tem_result.append("ESC-Role："+tem['content'])
             result_data[str(index)]=tem_result  
