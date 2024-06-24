@@ -1,0 +1,26 @@
+[
+    {
+        "base": "Age: Not mentioned\nGender: Female\nOccupation: Not mentioned\nProblem: The seeker is in a complicated relationship with a man who lied about being divorced and is still legally married and living with his wife. She is trying to decide if she should stay with him and if she can rebuild trust, considering the impact on her children and the emotional investment in the relationship.",
+        "res": "家庭生活",
+        "source": "ESconv",
+        "base_biaozhu": "年龄：未提及\n性别：女\n职业：未提及\n问题：求助者与一个男人有一段复杂的关系，这个男人曾经撒谎说自己已经离婚，但实际上仍然合法结婚并与妻子同居。她正在考虑是否应该继续和他在一起，以及是否能够重建信任，考虑到对她的孩子和对这段关系的情感投入所产生的影响。",
+        "language": "english",
+        "id": 32025
+    },
+    {
+        "base": "Age: not mentioned\nGender: male\nOccupation: not mentioned\nProblem: The seeker's girlfriend left him nine days ago, ending their six and a half years relationship. He is struggling with the breakup, especially missing the unique sexual aspects of their relationship. He is also willing to compromise his boundaries to get her back.",
+        "res": "家庭生活",
+        "source": "ESconv",
+        "base_biaozhu": "年龄：未提及\n性别：男\n职业：未提及\n问题：寻求者的女朋友在九天前离开了他，结束了他们六年半的恋爱关系。他对分手感到困扰，特别是想念他们关系中独特的性方面。他也愿意妥协自己的底线来挽回她。",
+        "language": "english",
+        "id": 32027
+    },
+    {
+        "base": "Age: Not mentioned\nGender: Male\nOccupation: Not mentioned\nProblem: The seeker is feeling very sad and lonely after a breakup with his girlfriend of 4 years, who accused him of neglecting her. They had a big fight, and he hasn't talked to her in a month. He is considering unhealthy coping mechanisms like drinking alcohol to forget about her and is using a secret account to see her on Facebook, hoping to get back together.",
+        "res": "家庭生活",
+        "source": "ESconv",
+        "base_biaozhu": "年龄：未提及\n性别：男\n职业：未提及\n问题：寻求者在与交往4年的女友分手后感到非常悲伤和孤独，女友指责他忽视了她。他们大吵一架，一个月来他都没有和她说过话。他考虑使用不健康的应对机制，比如喝酒来忘记她，并且使用一个秘密账号在Facebook上关注她，希望能够复合。",
+        "language": "english",
+        "id": 32032
+    }
+]
