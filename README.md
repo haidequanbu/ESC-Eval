@@ -14,7 +14,9 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 - ./ESC-Role: our trained role playing agents which performace better than GPT4 in role-palying of a trouble person.
 - ./ESC-RANK: our trained scorer for scoring dialogues data according to 7 well-designed dimensions.
 - ./result: some examples of multi-turn conversations.
+- ./score: some examples of scoring results.
 - ./evaluate.py: get the multi-round dialogue script of the ESC model.
+- ./score.py: get the score of each dimention for multi-round dialogue.
 <!-- - ./ESC-Role:  -->
 
 
@@ -45,8 +47,13 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 </html>
 After this progress, you should get some json data in the format of examples list in folder ./result.
 
-4. Download [ESC-RANK](https://huggingface.co/haidequanbu/ESC-RANK) to folder ESC-RANK
+4. Download [ESC-RANK](https://huggingface.co/haidequanbu/ESC-RANK) to folder ESC-RANK, and prepare [Internlm2-chat](https://huggingface.co/internlm/internlm2-chat-7b)'s folder in score.py.
 5. run score.py using ESC-RANK on your interactive data.
+<html>
+
+    python score.py
+
+</html>
 
 ## User Cards
 
