@@ -1,18 +1,10 @@
-import requests
 import json
-from openai import OpenAI
 import os
 from tqdm import tqdm
-import time
 import torch
 from transformers import AutoModel, AutoTokenizer, AutoModelForCausalLM
-from transformers.generation.utils import GenerationConfig
 import argparse
 import datetime
-import fastchat.model
-from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
-import random
-from peft import PeftModel
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
 
