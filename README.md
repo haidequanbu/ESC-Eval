@@ -1,5 +1,7 @@
 # ESC-Eval
-This is the official repository of ESC-Eval, which includes the datasets and models used in the paper. The paper proposes a method for evaluating ESC models using a role-playing model, and the specific process is illustrated in the following Figure. Our paper is coming soon.
+**Paper link:** https://arxiv.org/abs/2406.14952
+
+This is the official repository of ESC-Eval, which includes the datasets and models used in the [ESC-Eval](https://arxiv.org/abs/2406.14952) paper. The paper proposes a method for evaluating ESC models using a role-playing model, and the specific process is illustrated in the following Figure.
 ![Framework](./img/framework.png)
 
 ### TODO
@@ -15,7 +17,7 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 
 
 ## Usage
-1. Download ESC-Role and replace the folder of './ESC-Role'
+1. Download [ESC-Role](https://huggingface.co/haidequanbu/ESC-Role) and replace the folder of './ESC-Role'
 2. Change your LLM-based ESC-model to the format of below (we alse list examples of llama3 and Qwen1.5 in evaluate.py) :
 <html>
     <head>
@@ -23,16 +25,17 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
         class YourModel():
             def __init__(self):
                 self.tokenizer = AutoTokenizer.from_pretrained("model_dir")
-                self.model = AutoModelForCausalLM.from_pretrained("model_dir",torch_dtype="auto"device_map="auto").eval()
-            def __call__(self, message,temperature=0.05) -> str:
+                self.model = AutoModelForCausalLM.from_pretrained("model_dir",torch_dtype="auto",device_map="auto").eval()
+            def __call__(self, message) -> str:
                 reponse=self.model.chat(message)
                 return response
 
 </head>
 </html>
+
 3. run evaluate.py to get multi-turn dialogue data
-4. Download ESC-RANK to folder ESC-RANK
-5. run score.py using ESC-RANK on your evaluating data.
+4. Download [ESC-RANK](https://huggingface.co/haidequanbu/ESC-RANK) to folder ESC-RANK
+5. run score.py using ESC-RANK on your interactive data.
 
 ## User Cards
 
