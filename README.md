@@ -6,11 +6,10 @@ This is the official repository of ESC-Eval, which includes the datasets and mod
 
 ### TODO
 - [ ] Middle quality character card upload
-- [ ] update score.py 
 
 
 ## Overview
-- ./data: role_cards data use in the paper
+- ./data: role_cards data used in the paper. 
 - ./ESC-Role: our trained role playing agents which performace better than GPT4 in role-palying of a trouble person.
 - ./ESC-RANK: our trained scorer for scoring dialogues data according to 7 well-designed dimensions.
 - ./result: some examples of multi-turn conversations.
